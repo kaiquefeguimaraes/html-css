@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+body {
+    background-color: black;
+}
+#fora {
+    background-image: url('imagens/espaco.jpg');
+    background-size: cover;
+    position: relative;
+    height: 100vh;  
+}
+#dentro {
+    position: absolute;
+    background-image: url('imagens/astronauta.png');
+    background-position: center center;
+    background-size: cover; 
+    height: 450px;
+    width: 450px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
