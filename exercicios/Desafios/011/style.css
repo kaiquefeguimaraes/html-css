@@ -17,8 +17,8 @@ body {
     background-image: url('imagens/astronauta.png');
     background-position: center center;
     background-size: cover; 
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 280px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
